@@ -1,0 +1,50 @@
+body {
+    background-color: #333333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}  
+
+#dashboard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 500px;
+    min-height: 500px;
+}
+  
+#dashboard > div { /* equivalent of #panel-1, #panel-2, #panel-3, #panel-4, #panel-5, #panel-6 */
+    margin: 5px;
+    flex-grow: 1;
+    min-height: 450px;
+    min-width: 450px;
+}
+
+#panel-1 {
+    background-color: #ef5350;
+}
+
+#panel-2 {
+    background-color: #ab47bc;
+}
+
+#panel-3 {
+    background-color: #29b6f6;
+}
+
+#panel-4 {
+    background-color: #ffa726;
+}
+
+#panel-5 {
+    background-color: #9ccc65;
+}
+
+#panel-6 {
+    background-color: #78909c;
+}
+
+#blokje{
+    height:90px;
+    width:90px;
+    background: yellow;
+}

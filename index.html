@@ -1,1 +1,83 @@
-<div id="root"></div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Personal Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+
+</head>
+<body>
+
+    <div id="header">
+        <h1>My Personal Dashboard</h1>
+    </div>
+
+    <div id="dashboard">
+        <div id="panel-1">
+            <div>
+                <label for="textToInput">Input some text</label>
+                <input type="text" id="textToInput">
+            </div>
+            <div>
+                <label for="checkboxToCheck">Check the checkbox</label>
+                <input type="checkbox" id="checkboxToCheck">
+            </div>
+            <div>
+                <input type="radio" name="colorRadioGroup" value="yellow">Yellow<br>
+                <input type="radio" name="colorRadioGroup" value="green">Green<br>
+                <input type="radio" name="colorRadioGroup" value="red">Red<br>
+            </div>
+            <div>
+                <button id="buttonToClick">Click me</button>
+            </div>
+        </div>
+
+        <div id="panel-2">2</div>
+        <div id="panel-3">3</div>
+        <div id="panel-4">4</div>
+        <div id="panel-5">5</div>
+        <div id="panel-6">
+            
+            New Todo <input id="todotext"><button id="b1">Add</button>
+            <ul id="todoItems">
+
+            </ul>
+
+
+
+
+        </div>
+    </div>
+
+    <div id="blokje">
+         
+
+
+    </div>
+
+    <div id="footer">
+        <p>Personal Dashboard of Wesly Backers</p>
+        <p>Contact information: <a heref="mailto:wesly.backers@gmail.com">wesly.backers@gmail.com</a></p>
+    </div>
+
+<!--     <script>
+        $("#dashboard div:nth-child(3)")
+            .css("background-color","blue")
+            .on('click',function() {
+            $(this).css("background-color","red");
+            });
+
+        $("#header")
+            .css('text-align', 'center');
+    
+    
+    </script>
+-->
+
+</body>
+</html>
